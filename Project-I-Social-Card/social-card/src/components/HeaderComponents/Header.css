@@ -1,1 +1,81 @@
 /* All styles for your header Components live here */
+.main-header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    border: solid 2px orangered;
+    align-items: flex-start;
+    padding: 1%;
+    max-width: 1000px;
+}
+
+.logo-img{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+img {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border: solid 1px crimson;
+}
+
+.post-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 1%;
+    border: solid 1px green;
+
+}
+
+.post-title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.styled-title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-title {
+    display: flex;
+    margin-right: 2%;
+}
+
+.handle{
+    display: flex;
+    margin-right: 2%;
+    font-weight: 100;
+}
+
+.timestamp{
+    display: flex;
+    margin-right: 2%;
+    font-weight: 100;
+}
+
+.post-engagement{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    width: 95%;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    line-height: 1.25;
+}
+

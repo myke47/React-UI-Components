@@ -1,1 +1,42 @@
 /* All styles for your Card Components live here */
+
+.post-output{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: solid 1px blue;
+    padding: 0% 1% 0% 1%;
+}
+
+.post-placement{
+    display: flex;
+    margin: 0% 0% 0% 13%;
+
+}
+
+.banner-img img{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border: solid 1px blue;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    align-self: flex-end;
+}
+
+.caption-summary{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    width: 95%;
+}
+
+.url-mimic{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: grey;
+}
