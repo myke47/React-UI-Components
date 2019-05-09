@@ -1,0 +1,42 @@
+.footbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    border: solid 2px orangered;
+    align-items: flex-start;
+    padding: 1%;
+    max-width: 1000px;
+}
+
+.comment{
+    display: flex;
+    width: 25%;
+    margin: 5% auto;
+    border: solid 2px orangered;
+    padding: 1%;
+}
+
+.shares{
+    display: flex;
+    width: 25%;
+    margin: 5% auto;
+    border: solid 2px orangered;
+    padding: 1%;
+}
+
+.saves{
+    display: flex;
+    width: 25%;
+    margin: 5% auto;
+    border: solid 2px orangered;
+    padding: 1%;
+}
+
+.send{
+    display: flex;
+    width: 25%;
+    margin: 5% auto;
+    border: solid 2px orangered;
+    padding: 1%;
+}
