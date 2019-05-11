@@ -5,6 +5,8 @@ import CardContent from './CardContent';
 
 const CardContainer = () => {
   return (
+    <div className="card-container">
+    <a href="https://react.js.org" className="card-link" target="_blank" rel="noopener noreferrer">
     <div className="post-output">
     <div className="post-placement">
     <div className="banner-img">
@@ -13,15 +15,16 @@ const CardContainer = () => {
         <div className="post-caption" />
         <CardContent />
 
+        </div>
+
       </div>
     </div>
 
+    </a>
     </div>
 
 
   );
 };
-
-// CardContainer.addEventListener('click', event())
 
 export default CardContainer;

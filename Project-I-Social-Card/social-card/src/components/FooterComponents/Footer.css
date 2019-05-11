@@ -3,7 +3,6 @@
     flex-direction: row;
     width: 100%;
     margin: 0 auto;
-    border: solid 2px orangered;
     align-items: flex-start;
     padding: 1%;
     max-width: 1000px;
@@ -12,31 +11,31 @@
 .comment{
     display: flex;
     width: 25%;
-    margin: 5% auto;
-    border: solid 2px orangered;
+    margin: auto;
     padding: 1%;
+    justify-content: space-around;
 }
 
 .shares{
     display: flex;
     width: 25%;
-    margin: 5% auto;
-    border: solid 2px orangered;
+    margin: auto;
     padding: 1%;
+    justify-content: space-around;
 }
 
 .saves{
     display: flex;
     width: 25%;
-    margin: 5% auto;
-    border: solid 2px orangered;
+    margin: auto;
     padding: 1%;
+    justify-content: space-around;
 }
 
 .send{
     display: flex;
     width: 25%;
-    margin: 5% auto;
-    border: solid 2px orangered;
+    margin: auto;
     padding: 1%;
+    justify-content: space-around;
 }
